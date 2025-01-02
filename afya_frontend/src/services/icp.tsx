@@ -31,7 +31,7 @@ const getHostAndCanisterId = (): HostConfig => {
   }
   
   return {
-    host: 'https://icp0.io',  
+    host: 'https://identity.ic0.app/',  
     canisterId: process.env.NEXT_PUBLIC_CANISTER_ID ?? 'a4tbr-q4aaa-aaaaa-qaafq-cai'
   };
 };
