@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { verifyIdentity } from "@/utils/icp";
+import { verifyIdentity } from "@/services/icp";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, Loader2 } from "lucide-react";

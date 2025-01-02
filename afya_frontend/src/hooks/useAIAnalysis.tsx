@@ -1,4 +1,4 @@
-import { AzureHealthService } from "@/utils/healthAnalysis";
+import { AzureHealthService } from "@/services/healthAnalysis";
 import { HealthData } from "@/types/health";
 import { useState } from "react";
 

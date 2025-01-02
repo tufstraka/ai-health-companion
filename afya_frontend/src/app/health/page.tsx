@@ -11,7 +11,7 @@ import { Switch } from '@/components/ui/switch'
 import { Badge } from '@/components/ui/badge'
 import { Loader2, Plus, X, Activity, Heart, Brain, Thermometer, LogOut } from 'lucide-react'
 import { Alert, AlertDescription } from '@/components/ui/alert'
-import { createActor, getPrincipal, logout } from '@/utils/icp'
+import { createActor, getPrincipal, logout } from '@/services/icp'
 import { v4 as uuidv4 } from 'uuid'
 import { useRouter } from 'next/navigation'
 

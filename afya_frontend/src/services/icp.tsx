@@ -1,6 +1,6 @@
 import { Actor, HttpAgent } from '@dfinity/agent';
 import { AuthClient } from '@dfinity/auth-client';
-import { idlFactory } from './backend.did.js';
+import { idlFactory } from '../utils/backend.did.js';
 import { BackendService } from '@/types/actor.js';
 
 interface HostConfig {
