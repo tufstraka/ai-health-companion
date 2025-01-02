@@ -17,7 +17,6 @@ import {
 import { v4 as uuidv4 } from 'uuid';
 
 
-// Enhanced Health Data Types
 const VitalSigns = Record({
     heartRate: text,
     bloodPressure: text,
@@ -72,7 +71,6 @@ const User = Record({
     email: text,
 });
 
-// Initialize Stable Storage
 const healthRecords = StableBTreeMap(0, text, HealthData);
 const users = StableBTreeMap(2, text, User);
 const aiPredictions = StableBTreeMap(4, text, AIPrediction);
@@ -145,7 +143,6 @@ export default Canister({
 
     updateUser: update([User], Result(User, Error), (user) => {
         try {
-            // Validate user
             if (!users.get(user.id)) {
                 return Err({ 
                     code: "NOT_FOUND",
@@ -153,7 +150,6 @@ export default Canister({
                 });
             }
 
-            // Update user
             users.insert(user.id, user);
             return Ok(user);
         } catch (error) {
