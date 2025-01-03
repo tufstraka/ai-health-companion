@@ -40,11 +40,12 @@ export default function Home() {
         toast('Welcome back! Redirecting to dashboard...', { icon: '🎉' });
         router.replace('/health');
       } else {
+        toast('Hey there. You should register first to use the platform. ');        
         router.replace('/auth/register');
       }
     } catch (error) {
       console.error('Auth check failed:', error);
-      toast('Authentication check failed. Redirecting to registration...', { icon: '❌', style: { backgroundColor: '#ff4d4f', color: '#fff' } });
+      toast('Authentication check failed. Redirecting to registration...', { icon: '❌' });
       router.replace('/auth/register');
     } finally {
       setIsLoading(false);
