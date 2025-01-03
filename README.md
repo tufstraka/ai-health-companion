@@ -49,9 +49,10 @@ npm run dev
 cd ..
 cd afya_backend
 npm install
+dfx start --background
 dfx deploy
 ```
-Make sure you're environment variables look like this. Replace the canisters with yours. 
+Make sure you're environment variables look like this.  
 
 ```bash
 NEXT_PUBLIC_AZURE_ENDPOINT=https://ai-keithkadima3970ai074778735402.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview
@@ -63,7 +64,7 @@ NEXT_PUBLIC_CANISTER_ID=a4tbr-q4aaa-aaaaa-qaafq-cai
 NEXT_PUBLIC_AZURE_API_KEY=EmJXpfa4gdMf7a4D7Mb5WhPNCJhwqHAWJPH1Rb9ltBzmqLMq56GtJQQJ99ALACYeBjFXJ3w3AAAAACOG1Yfo
 ```
 
-## User Flow
+## Screenshots
 
 ### Home
 ![Home](home.png) 
