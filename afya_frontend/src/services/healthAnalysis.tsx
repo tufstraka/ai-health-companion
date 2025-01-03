@@ -45,7 +45,8 @@ export class AzureHealthService {
     - Note when additional data would be helpful
     - Stay within your scope of analysis
     - Flag any critical health indicators that require immediate attention
-    - Maintain a balance between thoroughness and accessibility`;
+    - Maintain a balance between thoroughness and accessibility
+    - Do not include a title for the greeting`;
 
     private constructor(config: AzureConfig) {
         this.config = config;
