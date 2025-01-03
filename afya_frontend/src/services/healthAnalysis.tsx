@@ -103,7 +103,7 @@ export class AzureHealthService {
                 }
             ],
             temperature: 0.7,
-            max_tokens: 1200
+            max_tokens: 1700
         });
     }
 
