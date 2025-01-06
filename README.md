@@ -67,18 +67,18 @@ NEXT_PUBLIC_AZURE_API_KEY=EmJXpfa4gdMf7a4D7Mb5WhPNCJhwqHAWJPH1Rb9ltBzmqLMq56GtJQ
 ## Screenshots
 
 ### Home
-![Home](home.png) 
+![Home](Outassets/home.png) 
 
 ### Login 
-![Login](login.png)
+![Login](Outassets/login.png)
 
 ### Registration
-![Registration](register.png)
+![Registration](Outassets/register.png)
 
 ### Dashboard
-![Dashboard](dashboard.png)
+![Dashboard](Outassets/dashboard.png)
 
-![Dashboard Results](dashboardResults.png)
+![Dashboard Results](Outassets/dashboardResults.png)
 
 ## 🔄 API Routes
 
