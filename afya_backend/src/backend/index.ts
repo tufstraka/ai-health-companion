@@ -7,7 +7,7 @@ import {
     Result,
     bool
 } from 'azle/experimental';
-import { AIPrediction, Error, HealthData, Statistics, User } from './dataType/dataType';
+import { AIPrediction, Error, HealthData, Statistics, User } from './types/dataType';
 import UserController from './controllers/UserController';
 import HealthController from './controllers/HealthController';
 import AiController from './controllers/AiController';

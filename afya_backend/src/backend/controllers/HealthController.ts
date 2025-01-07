@@ -1,6 +1,6 @@
 import { Err, ic, Ok, text } from "azle/experimental";
 import { v4 as uuidv4 } from 'uuid';
-import { AIPrediction, HealthData } from "../dataType/dataType"
+import { AIPrediction, HealthData } from "../types/dataType"
 import { validateUser } from "../utils/validateUser";
 import { aiPredictions, healthRecords, users } from "../storage/storage";
 

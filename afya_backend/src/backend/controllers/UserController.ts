@@ -1,5 +1,5 @@
 import { Err, Ok, text } from "azle/experimental";
-import { User } from "../dataType/dataType";
+import { User } from "../types/dataType";
 import { users } from "../storage/storage";
 
 

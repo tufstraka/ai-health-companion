@@ -1,5 +1,5 @@
 import { text, StableBTreeMap } from "azle/experimental";
-import { AIPrediction, HealthData, User } from "../dataType/dataType";
+import { AIPrediction, HealthData, User } from "../types/dataType";
 
 
 
