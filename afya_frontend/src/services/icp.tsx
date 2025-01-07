@@ -1,6 +1,6 @@
 import { Actor, HttpAgent } from '@dfinity/agent';
 import { AuthClient } from '@dfinity/auth-client';
-import { idlFactory } from '../utils/backend.did.js';
+import { idlFactory } from '../declarations/backend.did.js';
 import { BackendService } from '@/types/actor.js';
 
 interface HostConfig {
@@ -48,8 +48,8 @@ export const createActor = async (): Promise<BackendService> => {
 
     if (!identity.getPrincipal().isAnonymous()) {
       const { host, canisterId } = getHostAndCanisterId();
-      
-      const agent = new HttpAgent({
+
+      const agent = await HttpAgent.create({
         host,
         identity,
       });
