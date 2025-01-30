@@ -52,7 +52,8 @@ npm install
 dfx start --background
 dfx deploy
 ```
-Make sure you're environment variables look like this.  
+Make sure you're environment variables look like this. 
+Replace NEXT_PUBLIC_II_CANISTER_ID and NEXT_PUBLIC_CANISTER_ID with the canister id's you get after deploying the backend on the local Internet Computer replica.
 
 ```bash
 NEXT_PUBLIC_AZURE_ENDPOINT=https://ai-keithkadima3970ai074778735402.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview
